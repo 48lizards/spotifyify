@@ -1,0 +1,12 @@
+{
+    "name": "Spotifyify",
+    "version": "0.1",
+    "description": "Put a Spotify widget on RA album reviews",
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "matches": ["https://www.residentadvisor.net/reviews/*"]
+        }
+    ],
+    "manifest_version": 2
+}
